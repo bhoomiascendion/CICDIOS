@@ -37,6 +37,7 @@
 		30B6F2B094E6FE05242CC262 /* Pods-RetirementCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetirementCalculator.release.xcconfig"; path = "Target Support Files/Pods-RetirementCalculator/Pods-RetirementCalculator.release.xcconfig"; sourceTree = "<group>"; };
 		355ABA58E4564EC5D3D4DE86 /* Pods-RetirementCalculatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetirementCalculatorUITests.debug.xcconfig"; path = "Target Support Files/Pods-RetirementCalculatorUITests/Pods-RetirementCalculatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5180CEB91F833A254810DEDA /* Pods_RetirementCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetirementCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67FA9B632BC3DF3100FD22A8 /* RetirementCalculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RetirementCalculator.entitlements; sourceTree = "<group>"; };
 		6DBE6816230ACB7D00B1D469 /* RetirementCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetirementCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DBE6819230ACB7D00B1D469 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DBE681B230ACB7D00B1D469 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +119,7 @@
 		6DBE6818230ACB7D00B1D469 /* RetirementCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				67FA9B632BC3DF3100FD22A8 /* RetirementCalculator.entitlements */,
 				6DBE6819230ACB7D00B1D469 /* AppDelegate.swift */,
 				6DBE681B230ACB7D00B1D469 /* ViewController.swift */,
 				6DBE681D230ACB7D00B1D469 /* Main.storyboard */,
@@ -544,6 +546,7 @@
 			baseConfigurationReference = C9C1363A0B9E82E95541E329 /* Pods-RetirementCalculator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RetirementCalculator/RetirementCalculator.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.0.1;
 				DEVELOPMENT_TEAM = VU37VNGRSR;
@@ -568,6 +571,7 @@
 			baseConfigurationReference = 30B6F2B094E6FE05242CC262 /* Pods-RetirementCalculator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RetirementCalculator/RetirementCalculator.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.0.1;
 				DEVELOPMENT_TEAM = VU37VNGRSR;
