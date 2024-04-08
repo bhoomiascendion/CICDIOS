@@ -33,6 +33,18 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		67FA9B642BC3EB8800FD22A8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		30B6F2B094E6FE05242CC262 /* Pods-RetirementCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetirementCalculator.release.xcconfig"; path = "Target Support Files/Pods-RetirementCalculator/Pods-RetirementCalculator.release.xcconfig"; sourceTree = "<group>"; };
 		355ABA58E4564EC5D3D4DE86 /* Pods-RetirementCalculatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetirementCalculatorUITests.debug.xcconfig"; path = "Target Support Files/Pods-RetirementCalculatorUITests/Pods-RetirementCalculatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -172,6 +184,7 @@
 				6DBE6812230ACB7D00B1D469 /* Sources */,
 				6DBE6813230ACB7D00B1D469 /* Frameworks */,
 				6DBE6814230ACB7D00B1D469 /* Resources */,
+				67FA9B642BC3EB8800FD22A8 /* CopyFiles */,
 			);
 			buildRules = (
 			);
